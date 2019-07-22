@@ -1,0 +1,1 @@
+javac -cp src/;lib/* -d src/classes/ src/*.java && java -cp src/classes/;lib/* -Djava.library.path=lib/natives snakenet.Network
