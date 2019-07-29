@@ -2,7 +2,7 @@
 
 This is a java program that uses my [simple multilayer perceptron neural network](https://github.com/ViktorHura/mlpnet-ga-java), together with a genetic algorithm to learn to play the game of snake.
 
-The game runs on OpenGl using bindings prodived by [lwjgl](https://www.lwjgl.org/) library.
+The game runs on OpenGl using bindings provided by [lwjgl](https://www.lwjgl.org/) library.
 
 The network has 12 input nodes, 13 hidden nodes and 4 outputs.
 
@@ -20,9 +20,9 @@ The genetic algorithm is identical to the one I used in my previous projects but
 
 I decided to have the first 4 apples in the game spawn in fixed position as to aid the snakes to get on their feet. This also means that the best fitness score doesn't drop after each generation.
 
-But when the snakes have learnt to eat the first 4 apples, then the apples spawn random like in the real game. This makes it so that the same snake might get different fitness scores in different generations.
+But when the snakes have learned to eat the first 4 apples, then the apples spawn random like in the real game. This makes it so that the same snake might get different fitness scores in different generations.
 
-I couldn't cope with the random nature of this game at first. But I have learnt that even tho the snakes might be leapfrogging each other in terms of highest fitness, I have observed that the average fitness still rises from one generation to the next.
+I couldn't cope with the random nature of this game at first. But I have learned that even tho the snakes might be leapfrogging each other in terms of highest fitness, I have observed that the average fitness still rises from one generation to the next.
 
 I am happy with the results I got considering the simple architecture of my neural network and the limited inputs that my snakes get.
 
