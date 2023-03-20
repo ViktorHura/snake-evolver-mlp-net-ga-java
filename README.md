@@ -1,5 +1,7 @@
 # Snake Evolver
 
+![snake gif](https://github.com/ViktorHura/snake-evolver-mlp-net-ga-java/raw/master/snake.gif)
+
 This is a java program that uses my [simple multilayer perceptron neural network](https://github.com/ViktorHura/mlpnet-ga-java), together with a genetic algorithm to learn to play the game of snake.
 
 The game runs on OpenGl using bindings provided by [lwjgl](https://www.lwjgl.org/) library.
@@ -27,6 +29,8 @@ I couldn't cope with the random nature of this game at first. But I have learned
 I am happy with the results I got considering the simple architecture of my neural network and the limited inputs that my snakes get.
 
 In the future I might try to give the snakes a more complex vision and use a more complex neural network.
+
+![evolver screenshot](https://github.com/ViktorHura/snake-evolver-mlp-net-ga-java/raw/master/evolver.png)
 
 ## Binaries
 
